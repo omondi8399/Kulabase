@@ -59,7 +59,8 @@ return (
             <div className='my-4 text-center text-gray-500'>
                 or login with provider
             </div>
-            <button className='flex gap-4 justify-center'>
+            <button className='flex gap-4 justify-center' 
+                onClick={() => signIn('google', {callbackUrl: '/'})} >
                 <Image src={'/google.png'} alt={""} width={32} height={32} />
                 Login with google
             </button>
