@@ -92,7 +92,7 @@ return (
                     setEditedCategory(c)
                     setCategoryName(c.name)
                 }}
-                key={c} className='bg-gray-200 rounded-xl p-2 px-4 flex gap-1
+                key={c} className='rounded-xl p-2 px-4 flex gap-1
                 cursor-pointer mb-1'>
                     <span>edit category</span>
                     <span>{c.name}</span>
